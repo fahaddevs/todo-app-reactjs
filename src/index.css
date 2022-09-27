@@ -1,25 +1,36 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
 
+:root {
+  --site-clr: #11b392;
+  --body-bg: #1E3255;
+  --text-clr: #ffffff;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
 html {
   scroll-behavior: smooth;
 }
 
 body {
     font-family: "Inter", sans-serif;
-    color: #fff;
-    font-size: 0.9375rem;
-    padding: 0;
-    margin: 0;
+    color: var(--text-clr);
+    font-size: 1rem;
     font-weight: 400;
     position: relative;
     line-height: 1.7;
-    background-color: #1D3154;
+    background-color: var(--body-bg);
     -webkit-transition: all 0.5s;
     -o-transition: all 0.5s;
     transition: all 0.5s;
     overflow-x: hidden;
     display: flex;
-    flex-flow: column;
+    flex-wrap: wrap;
+    justify-content: center;
     min-height: 100vh;
 }
 
