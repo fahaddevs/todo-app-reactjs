@@ -2,7 +2,7 @@
 
 :root {
   --site-clr: #11b392;
-  --body-bg: #1E3255;
+  --body-bg: #081937;
   --text-clr: #ffffff;
 }
 
@@ -17,6 +17,7 @@ html {
 }
 
 body {
+  position: relative;
     font-family: "Inter", sans-serif;
     color: var(--text-clr);
     font-size: 1rem;

@@ -1,10 +1,20 @@
-import React from 'react'
+import React, { useEffect } from 'react'
 
-const Modal = () => {
+const Modal = ({modalContent, modalClose, modalClass}) => {
+
+  useEffect(()=>{
+    setTimeout(()=>{
+      modalClose();
+    },2000)
+  })
+
   return (
-    <div className='modal'>
-      <p>I'm Modal</p>
+    <div className={modalClass}>
+      <p>{modalContent}</p>
     </div>
+    // <div className='modal success'>
+    //   <p>Add Itedm</p>
+    // </div>
   )
 }
 
