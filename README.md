@@ -23,3 +23,8 @@
 
 > When item is removed
 ![Markdown Thumbnail](./src/assets/app3.png)
+
+
+## Demo
+
+Live link [Todo App](https://todo-vite.netlify.app/)
